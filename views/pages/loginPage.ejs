@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Seven and Eleven</title>
+    <link rel="stylesheet" href="mystyle.css" />
+  </head>
+  <body>
+    <h2>Welcome to Seven and Eleven</h2>
+
+    <form action="/login" method="post">
+      <label for="lname">Username:</label><br />
+      <input type="text" id="lname" name="username" value="" /><br />
+      <label for="lname">Passwords:</label><br />
+      <input type="text" id="lname" name="password" value="" /><br />
+
+      <button type="submit">login</button>
+    </form>
+    <p><%= loginInfo%></p>
+
+    <br />New user?<br />
+    <a href="signup.html">Sign up here</a>
+  </body>
+</html>
